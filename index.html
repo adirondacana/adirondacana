@@ -24,30 +24,7 @@ img.one {
       </h2>
       </font>
     <br>
-    <script type="text/javascript">
-<!--
- var imlocation = "images/";
- var currentdate = 0;
- var image_number = 0;
- function ImageArray (n) {
-   this.length = n;
-   for (var i =1; i <= n; i++) {
-     this[i] = ' '
-   }
- }
- image = new ImageArray(2)
- image[0] = 'IMG_3380.JPG'
- image[1] = 'IMG-3466.JPG'
- var rand = 60/image.length
- function randomimage() {
- 	currentdate = new Date()
- 	image_number = currentdate.getSeconds()
- 	image_number = Math.floor(image_number/rand)
- 	return(image[image_number])
- }
- document.write("<img class="one" align="center" src='" + imlocation + randomimage()+ "'>");
-//-->
-</script>
+ <img id="one" src="images/IMG_3380.JPG">
   </div>
   </body>
 </html>
